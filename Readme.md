@@ -1,4 +1,4 @@
-# Título do projeto
+# Automação Ruby + Cucumber
 
 Projeto de automação web utilizando Ruby + Cucumber
 
