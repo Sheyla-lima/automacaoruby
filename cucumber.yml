@@ -1,8 +1,8 @@
-Default: -p pretty --publish-quiet -p html -p development -p chrome
+default: -p pretty --publish-quiet -p html -p development -p chrome
 
 pretty: --format pretty
-development: ENVIROMENT=development
-production: ENVIROMENT=production
+development: ENVIRONMENT=development
+production: ENVIRONMENT=production
 
 chrome: BROWSER=chrome
 firefox: BROWSER=firefox
