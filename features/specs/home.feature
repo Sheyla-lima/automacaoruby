@@ -1,9 +1,8 @@
 #language: pt
 
-#Plano de Teste
 Funcionalidade: Home Page
 
-Cenario: Acessar Home Page
+Cenario: Acessar home page
 
-Dado que eu acesse a Home Page do projeto Qa.Coders #Abriu a pagina
-Então visualizo devo visualizar informação "Aprenda na prática"
+Dado que eu acesse a home page do projeto Qa.Coders
+Então devo visualizar a informação "Aprenda na prática."

@@ -6,9 +6,8 @@ require 'pry'
 require_relative 'helper.rb'
 require_relative 'page_helper.rb'
 
-
 ENVIRONMENT = ENV['ENVIRONMENT']
-puts "ENVIRONMENT is runner  >>> #{ENVIRONMENT}"
+puts "ENVIRONMENT is runner >>> #{ENVIRONMENT}"
 
 CONFIG = YAML.load_file(File.dirname(__FILE__) + "/environments/#{ENVIRONMENT}.yml")
 World(Helper)

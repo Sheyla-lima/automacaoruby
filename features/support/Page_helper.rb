@@ -1,4 +1,4 @@
-Dir[File.join(File.dirname(__FILE__),"../pages.rb/")].each {|file| require file}
+Dir[File.join(File.dirname(__FILE__), "../pages/*_page.rb")].each {|file| require file}
 
 module Pages
 
@@ -6,8 +6,4 @@ module Pages
         @home ||= Home.new
     end
 
-    def login
-        @login || Login.new
-    end
-
-   end
+end
